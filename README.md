@@ -1,4 +1,4 @@
-# iec61850toolbox
+# IEC 61850 Toolbox
 
 Software tools for overviewing files of IEC 61850 standard, diagnosis and monitoring on IEC 61850 network
 ___
