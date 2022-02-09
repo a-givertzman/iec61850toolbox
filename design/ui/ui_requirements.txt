@@ -1,0 +1,3 @@
+# Ganeral requirements to the user interface (UI)
+ - use colors from app_color_palette.gif
+ - use app_ui.png to build UI 
