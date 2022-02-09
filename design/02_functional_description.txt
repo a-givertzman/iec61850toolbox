@@ -2,13 +2,37 @@
 What dose the software do
 
 ## Main functions
-1 Reading files of IEC61850 standart
-2 ...
+1 SCL-file Analisys
+2 Communication
+3. Compare
+4. Capture and decode
+5. Visualisation
 
 ### Functions detales
-1 Reading files of IEC61850 standart
- - Reading files of type scd 
- - Reading files of type icd 
-2 ...
- - ...
+
+1 SCL-file Analisys
+ - Open
+ - Show
+ - Browse
+ - Validate to Standard
+2 Communication
+ - Fetch from the IED
+ - Goose client
+ - Goose Server
+ - MMS client
+ - MMS Server
+ - Signals list
+ - SV client
+ - SV server
+3. Compare
+ - Loaded data to IED
+ - Loaded data to loaded data
+4. Capture and decode
+ - MMS
+ - GOOSE
+ - SV
+ - OLD protocols
+5. Visualisation
+ - GOOSE
+ - SV
 
