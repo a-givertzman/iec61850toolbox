@@ -1,0 +1,14 @@
+# Functional description
+What dose the software do
+
+## Main functions
+1 Reading files of IEC61850 standart
+2 ...
+
+### Functions detales
+1 Reading files of IEC61850 standart
+ - Reading files of type scd 
+ - Reading files of type icd 
+2 ...
+ - ...
+
