@@ -15,9 +15,7 @@ jobs:
     steps:
       - name: Checkout code
       - uses: actions/checkout@v2
-      # Static analysis
-      - name: Flutter action
-        uses: subosito/flutter-action@v2.3.0
+      - uses: subosito/flutter-action@v2.3.0
         with:
           # The Flutter version to make available on the path
           # flutter-version: # optional
@@ -39,11 +37,7 @@ jobs:
     steps:
       - name: Checkout code
       - uses: actions/checkout@v2
-      # Static analysis
-      
-      # Build
-      - name: Flutter action
-        uses: subosito/flutter-action@v2.3.0
+      - uses: subosito/flutter-action@v2.3.0
         with:
           # The Flutter version to make available on the path
           # flutter-version: # optional
