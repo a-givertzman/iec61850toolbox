@@ -21,12 +21,9 @@ jobs:
           # flutter-version: # optional
           # The Flutter build release channel
           channel: 'stable' # optional, default is 
-          # Cache the Flutter SDK
           cache: false # optional
-          # Identifier for the Flutter SDK cache
-          # cache-key: # optional, default is flutter
-          # Flutter SDK cache path
-          # cache-path: # optional, default is ${{ runner.tool_cache }}/flutter
+          cache-key: flutter # optional, default is flutter
+          cache-path: ${{ runner.tool_cache }}/flutter # optional, default is ${{ runner.tool_cache }}/flutter
       - run: flutter --version
       - run: flutter pub get
       - run: flutter test
@@ -43,12 +40,6 @@ jobs:
           # flutter-version: # optional
           # The Flutter build release channel
           channel: 'stable' # optional, default is 
-          # Cache the Flutter SDK
-          cache: false # optional
-          # Identifier for the Flutter SDK cache
-          # cache-key: # optional, default is flutter
-          # Flutter SDK cache path
-          # cache-path: # optional, default is ${{ runner.tool_cache }}/flutter
       - run: flutter --version
       - run: flutter pub get
       - run: flutter test
