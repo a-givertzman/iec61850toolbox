@@ -14,8 +14,9 @@ jobs:
     runs-on: windows-2019 # windows-latest
     steps:
       - name: Checkout code
-      - uses: actions/checkout@v2
-      - uses: subosito/flutter-action@v2.3.0
+        uses: actions/checkout@v2
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2.3.0
         with:
           # The Flutter version to make available on the path
           # flutter-version: # optional
@@ -27,14 +28,15 @@ jobs:
       - run: flutter --version
       - run: flutter pub get
       - run: flutter test
-
+  
   build:
     name: "Build flutter app on Windows Server 2019"
     runs-on: windows-2019 # windows-latest
     steps:
       - name: Checkout code
-      - uses: actions/checkout@v2
-      - uses: subosito/flutter-action@v2.3.0
+        uses: actions/checkout@v2
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2.3.0
         with:
           # The Flutter version to make available on the path
           # flutter-version: # optional
