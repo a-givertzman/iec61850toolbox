@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.iec61850_toolbox">
+    package="com.example.iec61850toolbox">
    <application
-        android:label="iec61850_toolbox"
+        android:label="iec61850toolbox"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

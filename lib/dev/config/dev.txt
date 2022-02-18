@@ -1,0 +1,7 @@
+flutter clean
+flutter pub upgrade
+Copy-Item "C:\flutter-projects\iec61850toolbox\build\windows\app.so" -Destination "C:\flutter-projects\iec61850toolbox\build\windows\runner\Debug\data\app.so" -Force
+
+flutter build windows
+
+flutter run -d windows

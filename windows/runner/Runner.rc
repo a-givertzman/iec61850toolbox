@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "iec61850_toolbox" "\0"
+            VALUE "FileDescription", "iec61850toolbox" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "iec61850_toolbox" "\0"
+            VALUE "InternalName", "iec61850toolbox" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2022 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "iec61850_toolbox.exe" "\0"
-            VALUE "ProductName", "iec61850_toolbox" "\0"
+            VALUE "OriginalFilename", "iec61850toolbox.exe" "\0"
+            VALUE "ProductName", "iec61850toolbox" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

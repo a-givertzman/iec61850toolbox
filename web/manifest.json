@@ -1,6 +1,6 @@
 {
-    "name": "iec61850_toolbox",
-    "short_name": "iec61850_toolbox",
+    "name": "iec61850toolbox",
+    "short_name": "iec61850toolbox",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
